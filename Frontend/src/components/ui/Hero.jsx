@@ -11,7 +11,7 @@ const Hero = () => {
         <p className="text-md md:text-lg text-gray-600">
           Explore your health status with the help of our BMI AI. Understanding your Body Mass Index can provide valuable insights into your wellbeing. Because your health matters to us.
         </p>
-        <button className="bg-[#163326] text-white px-6 py-3 rounded-16 hover:bg-[#0E4E30] transition duration-300">
+        <button className="bg-[#163326] text-white px-6 py-3 rounded-[16px] hover:bg-[#0E4E30] transition duration-300">
           Get Started
         </button>
       </div>
