@@ -3,7 +3,7 @@ import AccordionDemo from './accordion';
 
 const FAQ = () => {
   return (
-    <div className="bg-[#ffffff] py-16 min-h-screen w-full">
+    <div className="bg-[#ffffff] py-16 min-h-screen w-100%">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Header Section */}
             <div className="text-center mb-12">

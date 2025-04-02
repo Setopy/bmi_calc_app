@@ -5,6 +5,7 @@ import Steps from './components/ui/Steps';
 import Aboutus  from './components/ui/Aboutus';
 import Blogs from './components/ui/Blogs';
 import FAQ from './components/ui/FAQ';
+import Footer from './components/ui/Footer';
 
 
 const App = () => {
@@ -16,8 +17,7 @@ const App = () => {
       <Aboutus/>
       <Blogs/>
       <FAQ/>
-      
-
+      <Footer/>
     </div>
   );
 }

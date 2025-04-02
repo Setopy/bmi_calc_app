@@ -3,12 +3,11 @@ import * as Accordion from "@radix-ui/react-accordion";
 import { PlusIcon, MinusIcon } from "@radix-ui/react-icons";
 
 const AccordionDemo = () => (
-    <div className="w-[80%] mx-auto space-y-4">
-      {/* First Accordion - starts closed */}
+    <div className="w-full mx-auto justify-center items-center space-y-4">
       <Accordion.Root 
         type="single" 
         collapsible
-        className="w-[80%] rounded-lg overflow-hidden shadow-md"
+        className="w-[80%] mx-auto rounded-lg overflow-hidden shadow-md"
       >
         <Accordion.Item 
           value="item-1" 
@@ -30,11 +29,11 @@ const AccordionDemo = () => (
         </Accordion.Item>
       </Accordion.Root>
   
-      {/* Second Accordion - starts closed */}
+     
       <Accordion.Root 
         type="single" 
         collapsible
-        className="w-[80%] rounded-lg overflow-hidden shadow-md"
+        className="w-[80%] mx-auto rounded-lg overflow-hidden shadow-md"
       >
         <Accordion.Item 
           value="item-1" 
