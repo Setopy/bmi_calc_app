@@ -1,5 +1,6 @@
 import React from 'react';
 import heroImage from '../../assets/hero.png';
+import { NavLink } from "react-router";
 
 const Hero = () => {
   return (
@@ -11,9 +12,11 @@ const Hero = () => {
         <p className="text-md md:text-lg text-gray-600">
           Explore your health status with the help of our BMI AI. Understanding your Body Mass Index can provide valuable insights into your wellbeing. Because your health matters to us.
         </p>
-        <button className="bg-[#163326] text-white px-6 py-3 rounded-[16px] hover:bg-[#0E4E30] transition duration-300">
-          Get Started
-        </button>
+          <NavLink to="/calculate"
+            className="bg-[#0E4E30] text-white px-4 py-2 rounded-md hover:bg-[#0C3B22] transition duration-300"
+          >
+            Get Started
+          </NavLink>
       </div>
 
       {/* Image Section */}
