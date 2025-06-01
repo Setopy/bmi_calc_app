@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react'; // Import icons from lucide-react
+import { NavLink } from "react-router";
+
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -23,20 +25,20 @@ const Navbar = () => {
             menuOpen ? 'block' : 'hidden'
           } md:block`}
         >
-          <a href="#" className="block md:inline-block py-2">Home</a>
-          <a href="#" className="block md:inline-block py-2">About us</a>
-          <a href="#" className="block md:inline-block py-2">Blog</a>
-          <a href="#" className="block md:inline-block py-2">Contact us</a>
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="#">About us</NavLink>
+          <NavLink to="#">Blog</NavLink>
+          <NavLink to="#">Contact us</NavLink>
         </div>
 
         {/* Buttons */}
         <div className="hidden md:flex space-x-4">
           <a href="#" className="text-[#0E4E30] px-2 py-2">Login</a>
-          <button
+          <NavLink to="/calculate"
             className="bg-[#0E4E30] text-white px-4 py-2 rounded-md hover:bg-[#0C3B22] transition duration-300"
           >
             Get Started
-          </button>
+          </NavLink>
         </div>
       </div>
     </nav>
